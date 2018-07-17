@@ -36,6 +36,11 @@ html {
     fill: linear-gradient(to left, #ffffff, #b20a2c);
     width: 100%;
 }
+@media (max-width: 1000px) {
+    .logo {
+        width: 60%;
+    }
+}
 .slogan {
     color: #fff;
     font-size: 1rem;
@@ -52,5 +57,8 @@ html {
         width: 70%;
         margin: 6vw auto 0 auto;
         line-height: 1.5em;
+    }
+    .logo {
+        width: 40%;
     }
 }
