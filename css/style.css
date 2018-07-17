@@ -36,6 +36,9 @@ html {
     fill: linear-gradient(to left, #ffffff, #b20a2c);
     width: 100%;
 }
+#logo_svg {
+    width: 100%;
+}
 @media (max-width: 1000px) {
     .logo {
         width: 60%;
